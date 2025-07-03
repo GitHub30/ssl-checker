@@ -21,7 +21,8 @@
 				"bmewburn.vscode-intelephense-client"
 			]
 		}
-	}
+	},
+	"postStartCommand": "php -S localhost:8080"
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
